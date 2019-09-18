@@ -1,1 +1,1 @@
-# rsschool-cv
+# [CV](https://kostielgreendevil.github.io/rsschool-cv/cv)
