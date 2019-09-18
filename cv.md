@@ -38,7 +38,9 @@ for (let i = 0; i<A.length; i++){
   return A[i];
 }}}
 ```
-* I have no experience in web development. Performed tasks on Codewars.   
+* #### My expiriece:     
+ I have no experience in web development. Performed tasks on Codewars.   
  My experiece: Telecommunication engineer - State Border Committee of the Republic of Belarus.
-*
+* #### My education:    
+Belarusian State University of Informatics and Radioelectronics(2010-2015) Telecommunications Engineer.
    
