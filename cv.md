@@ -9,14 +9,8 @@
 * #### My skills:  
   HTML, CSS, JavaScript, Git  
 * #### Code examples (LATEST)   
- `function divisibleBy(numbers, divisor){
-    let arr = [];
-        for (let i=0; i<numbers.length; i++) {
-            if (numbers[i] % divisor == 0) arr.push(numbers[i]);
-        }
-    return arr;
-    }`     
- `function printerError(s) {
+```JavaScript
+function printerError(s) {
     let count = 0;
     s.split("");
     for (let i=0; i<s.length; i++){
@@ -25,5 +19,24 @@
       }
     }
     return count+"/"+s.length;
-}`
+}
+```
+
+```JavaScript
+function findOdd(A) {
+let count = 0;
+for (let i = 0; i<A.length; i++){
+    for (let j = 0; j<A.length; j++){
+      if(A[i] === A[j]){
+        count += 1;
+        }
+    }
+    if (count%2 === 0){
+    count = 0;
+    }else{
+
+  return A[i];
+}}}
+```
+    
    
