@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-header h1{
+header h1 {
     padding: 10px;
     font-family: "Arial", sans-serif;
     text-align: center;
@@ -16,6 +16,32 @@ header h1{
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-header h1:hover{
+header h1:hover {
     transform: scale(1.2);
+}
+
+section {
+    margin: 20px auto;
+}
+
+.photo-and-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-and-contacts img {
+    margin: 10px;
+}
+
+.contact-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h2,
+.contact-info p,
+.contact-info a {
+    margin: 0;
+    text-align: left;
 }
