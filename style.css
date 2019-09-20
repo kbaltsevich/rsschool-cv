@@ -76,3 +76,17 @@ section {
     font-size: 18px;
     font-family: "Arial", sans-serif;
 }
+
+.examples{
+    font-size: 18px;
+}
+
+.examples h2 {
+    margin: 0 0 10px 0;
+}
+
+.code {
+    display: flex;
+    justify-content: space-around;
+    color: darkgreen;
+}
