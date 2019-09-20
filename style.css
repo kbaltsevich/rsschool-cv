@@ -1,0 +1,114 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    font-size: 18px;
+}
+
+header {
+    height: 150px;
+}
+
+header h1 {
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    line-height: 150px;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header h1:hover {
+    transform: scale(1.2);
+}
+
+section {
+    margin: 20px auto;
+    padding: 0 5px;
+}
+
+.photo-and-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-and-contacts img {
+    margin: 10px;
+}
+
+.contact-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h2,
+.contact-info p,
+.contact-info a {
+    margin: 0;
+    text-align: left;
+}
+
+.contact-info a {
+    font-family: "Arial", sans-serif;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.summary p {
+    padding: 5px 0;
+}
+
+.summary p:first-letter,
+.experience p:first-letter {
+    font-size: 200%;
+    color: darkgreen;
+}
+
+.skills p{
+    padding: 10px 0;
+    font-family: "Arial", sans-serif;
+}
+
+
+.examples h2 {
+    margin: 0 0 10px 0;
+}
+
+.code {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Arial", sans-serif;
+    color: darkgreen;
+}
+
+.experience p a {
+    font-size: 20px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.experience span {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.education-english h2{
+    margin: 20px 0;
+}
+
+.education-english p{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+footer p{
+    margin-top: 132px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgreen;   
+}
