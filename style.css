@@ -22,6 +22,7 @@ header h1:hover {
 
 section {
     margin: 20px auto;
+    padding: 0 5px;
 }
 
 .photo-and-contacts {
@@ -61,11 +62,17 @@ section {
 }
 
 .summary p {
-    padding: 20px;
+    padding: 5px 0;
     font-size: 18px;
 }
 
 .summary p:first-letter {
     font-size: 200%;
     color: darkgreen;
+}
+
+.skills p{
+    padding: 10px 0;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
 }
