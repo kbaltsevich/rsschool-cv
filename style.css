@@ -45,3 +45,27 @@ section {
     margin: 0;
     text-align: left;
 }
+
+.contact-info h2{
+    text-transform: uppercase;
+}
+
+.contact-info p,
+.contact-info a{
+    font-size: 18px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.summary p {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.summary p:first-letter {
+    font-size: 200%;
+    color: darkgreen;
+}
