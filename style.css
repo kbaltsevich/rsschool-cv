@@ -7,3 +7,15 @@
     max-width: 1024px;
     width: 100%;
 }
+
+header h1{
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+header h1:hover{
+    transform: scale(1.2);
+}
