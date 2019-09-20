@@ -44,37 +44,48 @@
                         let count = 0;<Br>
                         s.split("");<Br>
                         for (let i=0; i < s.length; i++){ <Br>
-                        if(s[i] > "m" ){<Br>
-                        count++;<Br>
-                        }<Br>
-                        }<Br>
-                        return count+"/"+s.length;<Br>
+                            if(s[i] > "m" ){<Br>
+                            count++;<Br>
+                            }<Br>
+                            }<Br>
+                            return count+"/"+s.length;<Br>
                     </code>
                     <code>
                         function findOdd(A) {<Br>
                         let count = 0;<Br>
                         for (let i = 0; i < A.length; i++){<Br>
-                        for (let j = 0; j < A.length; j++){<Br>
-                        if(A[i] === A[j]){<Br>
-                        count += 1;<Br>
-                        }<Br>
-                        }<Br>
-                        if (count%2 === 0){<Br>
-                        count = 0;<Br>
-                        }else{<Br>
+                            for (let j = 0; j < A.length; j++){<Br>
+                                if(A[i] === A[j]){<Br>
+                                count += 1;<Br>
+                                }<Br>
+                                }<Br>
+                                if (count%2 === 0){<Br>
+                                count = 0;<Br>
+                                }else{<Br>
 
-                        return A[i];<Br>
-                        }}}<Br>
+                                return A[i];<Br>
+                                }}}<Br>
                     </code>
                 </div>
             </section>
             <section class="experience">
                 <h2>My experience</h2>
-                <p>I have no experience in web development. Performed tasks on <a href="https://www.codewars.com/users/kanstantsin_green" target="_blank".>Codewars</a>  and <a href="https://www.codecademy.com/profiles/kostielgreendevil4962448162" target="_blank".>Codecademy</a>. <span>Telecommunication engineer - State Border Committee of the Republic of Belarus.</span></p>
+                <p>I have no experience in web development. Performed tasks on <a
+                        href="https://www.codewars.com/users/kanstantsin_green" target="_blank" .>Codewars</a> and <a
+                        href="https://www.codecademy.com/profiles/kostielgreendevil4962448162" target="_blank"
+                        .>Codecademy</a>. <span>Telecommunication engineer - State Border Committee of the Republic of
+                        Belarus.</span></p>
+            </section>
+            <section class="education-english">
+                <h2>My education</h2>
+                <p><em>Belarusian State University of Informatics and Radioelectronics(2010-2015) Telecommunications
+                        Engineer.</em></p>
+                <h2>My English level</h2>
+                <p><em>Pre-Intermediate</em></p>
             </section>
         </main>
         <footer>
-
+           <p><em>Kanstantsin Baltsevich for rsschool-cv-html task</em></p>
         </footer>
     </div>
 </body>

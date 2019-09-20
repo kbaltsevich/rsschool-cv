@@ -9,10 +9,15 @@
     font-size: 18px;
 }
 
+header {
+    height: 150px;
+}
+
 header h1 {
     padding: 10px;
     font-family: "Arial", sans-serif;
     text-align: center;
+    line-height: 150px;
     text-transform: uppercase;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -90,4 +95,20 @@ section {
 .experience span {
     font-weight: bold;
     color: darkgreen;
+}
+
+.education-english h2{
+    margin: 20px 0;
+}
+
+.education-english p{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+footer p{
+    margin-top: 132px;
+    font-weight: bold;
+    text-align: center;
+    color: darkgreen;   
 }
