@@ -39,7 +39,7 @@ for (let i = 0; i<A.length; i++){
 }}}
 ```
 * #### My expiriece:     
-  I have no experience in web development. Performed tasks on Codewars.   
+  I have no experience in web development. Performed tasks on [Codewars](https://www.codewars.com/users/kanstantsin_green) and [Codecademy](https://www.codecademy.com/profiles/kostielgreendevil4962448162).   
   **Telecommunication engineer - State Border Committee of the Republic of Belarus.**
 * #### My education:    
   **Belarusian State University of Informatics and Radioelectronics(2010-2015) Telecommunications Engineer.**
